@@ -83,4 +83,4 @@ RUN cd /docker-elk && \
     cp logstash-forwarder.key /logstash/logstash-forwarder.key
 
 #80=ngnx, 9200=elasticsearch, 49021=logstash, 49022=lumberjack, 9999=udp
-EXPOSE 22 80 9200 49021 49022 9999/udp
+#EXPOSE 22 80 9200 49021 49022 9999/udp
